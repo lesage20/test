@@ -51,7 +51,7 @@ class UpcomingEvent(models.Model):
         verbose_name_plural = ("UpcomingEvents")
 
     def __str__(self):
-        return self.name
+        return self.title
 
 
 
