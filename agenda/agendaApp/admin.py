@@ -36,7 +36,7 @@ class EventAdmin(admin.ModelAdmin):
     list_filter = ('status',)
     ordering = ['date_add','title']
     fieldsets = [
-                ("Info CategorieArticle", {"fields":['name', 'image', 'description']}),
+                ("Info CategorieArticle", {"fields":['title', 'image', ]}),
                 ("Standard", {"fields":['status']})
                 ]
     list_per_page = 10
